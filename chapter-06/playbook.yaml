@@ -2,7 +2,7 @@
 - hosts: masters:nodes
   become: yes
   vars:
-    k8s_install: false
+    k8s_install: true
   roles:
     - tools
     - containerd
